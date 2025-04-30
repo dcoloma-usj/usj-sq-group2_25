@@ -28,7 +28,7 @@ function getTriangleType(lengthA, lengthB, lengthC) {
       } else if ( (a==b) || (b==c) || (a==c)) {
         type = ISOSCELES;
       } else {
-        type = ISOSCELES;
+        type = SCALENE;
       }
     }
   }
