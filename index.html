@@ -23,6 +23,11 @@
 
       // Calculate the type of Triangle
       triangleType = getTriangleType(a, b, c);
+
+      gtag('event', 'triangle_calculated', {
+        'triangleType': triangleType
+      });
+      
       // Shows the type of Triangle in the web site
       displayTriangleType(triangleType);
     }
